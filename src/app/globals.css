@@ -8,53 +8,56 @@ body {
 
 @layer base {
   :root {
-    --background: 196 88% 95%; /* #E5F6FD */
-    --foreground: 222 28% 24%; /* #1E293B */
+    /* These values are now from the original .dark theme */
+    --background: 222 47% 11%; /* Dark Blue */
+    --foreground: 196 40% 95%; /* Light Blueish Text */
 
-    --card: 0 0% 100%; /* White cards */
-    --card-foreground: 222 28% 24%;
+    --card: 222 40% 15%;
+    --card-foreground: 196 40% 95%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222 28% 24%;
+    --popover: 222 40% 15%;
+    --popover-foreground: 196 40% 95%;
 
-    --primary: 196 76% 52%; /* #29ABE2 */
-    --primary-foreground: 0 0% 100%; /* White */
+    --primary: 196 76% 58%; /* Slightly lighter vibrant blue for dark mode */
+    --primary-foreground: 0 0% 10%; /* Dark text on primary */
 
-    --secondary: 196 70% 90%; /* Lighter blue for secondary elements */
-    --secondary-foreground: 196 76% 30%; /* Darker blue for text on secondary */
+    --secondary: 222 30% 20%;
+    --secondary-foreground: 196 40% 95%;
 
-    --muted: 196 60% 92%; /* Muted blue */
-    --muted-foreground: 196 50% 45%; /* Muted text */
+    --muted: 222 30% 20%;
+    --muted-foreground: 196 30% 70%;
 
-    --accent: 120 73% 75%; /* #90EE90 */
-    --accent-foreground: 120 60% 20%; /* Dark green for text on accent */
+    --accent: 120 65% 60%; /* #77dd77 */
+    --accent-foreground: 0 0% 100%; /* White text on accent */
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 196 50% 85%; /* Light blueish border */
-    --input: 0 0% 100%; /* White input background */
-    --ring: 196 76% 52%; /* Primary color for rings */
+    --border: 222 30% 25%;
+    --input: 222 30% 22%;
+    --ring: 196 76% 58%;
 
-    --chart-1: 196 76% 61%;
-    --chart-2: 120 58% 60%;
-    --chart-3: 43 74% 66%;
-    --chart-4: 27 87% 67%;
-    --chart-5: 222 60% 70%;
+    --chart-1: 196 70% 50%;
+    --chart-2: 120 60% 45%;
+    --chart-3: 43 80% 55%;
+    --chart-4: 27 65% 60%;
+    --chart-5: 222 75% 55%;
     
     --radius: 0.5rem;
 
-    --sidebar-background: 0 0% 100%; /* White sidebar */
-    --sidebar-foreground: 222 28% 24%; /* Dark text */
-    --sidebar-primary: 196 76% 52%; /* Main primary color */
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 196 88% 92%; /* Very Light blue for sidebar accent */
-    --sidebar-accent-foreground: 196 76% 40%; /* Darker blue for text on sidebar accent */
-    --sidebar-border: 196 50% 88%;
-    --sidebar-ring: 196 76% 52%;
+    /* Sidebar variables also taken from original .dark */
+    --sidebar-background: 222 45% 9%; /* Very dark blue */
+    --sidebar-foreground: 196 40% 95%;
+    --sidebar-primary: 196 76% 58%;
+    --sidebar-primary-foreground: 0 0% 10%;
+    --sidebar-accent: 222 40% 18%;
+    --sidebar-accent-foreground: 196 40% 95%;
+    --sidebar-border: 222 30% 25%;
+    --sidebar-ring: 196 76% 58%;
   }
 
   .dark {
+    /* These values remain the same as the new :root, ensuring dark mode is consistent */
     --background: 222 47% 11%; /* Dark Blue */
     --foreground: 196 40% 95%; /* Light Blueish Text */
 
